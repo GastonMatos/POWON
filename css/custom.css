@@ -1,0 +1,122 @@
+.logo{
+	height: 25px;
+}
+
+.thumbnail{
+	height: 100px;
+}
+
+.comments{
+	height: 40px;
+}
+
+.item{
+	width: 100%;
+}
+
+.space {
+  margin-bottom: 2em;
+}
+
+
+
+
+
+#newmessage {
+    display: block;
+    width:200px;
+    margin:10px auto;
+    padding:7px 13px;
+    text-align:center;
+    background:#a2bb33;
+    font-size:1em;
+    font-family: 'Arial', sans-serif;
+    color:#ffffff;
+    white-space: nowrap;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+
+#newmessage:active {
+    vertical-align: top;
+    padding: 8px 13px 6px;
+}
+
+#sendmsg a{
+    display: block;
+    width:200px;
+    margin:10px auto;
+    padding:7px 13px;
+    text-align:center;
+    background:#2F4F4F;
+    font-size:1em;
+    font-family: 'Arial', sans-serif;
+    color:#ffffff;
+    white-space: nowrap;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+
+#sendmsg a:active {
+    vertical-align: top;
+    padding: 8px 13px 6px;
+}
+
+#sendmsg a:hover {
+    background:#1E90FF;
+}
+
+span {
+    position:absolute;
+    top:-2em;
+    right: 0.5em;
+ 
+    width: 1.5em;
+    height: 1.5em;
+ 
+    line-height:1.5em;
+    text-align:center;
+ 
+    ont-family:'Helvetica Neue', Helvetica, sans-serif;
+    font-weight:bold;
+    color:#fff;
+    text-shadow:0px 1px 0px rgba(0,0,0,.15);
+ 
+    -webkit-box-shadow:
+        inset 0px 1px 0px rgba(255,255,255,35),
+        0px 1px 1px rgba(0,0,0,.2);
+    -moz-box-shadow:
+        inset 0px 1px 0px rgba(255,255,255,.35),
+        0px 1px 1px rgba(0,0,0,.2);
+    box-shadow:
+        inset 0px 1px 0px rgba(255,255,255,.35),
+        0px 1px 1px rgba(0,0,0,.2);
+ 
+    -webkit-border-radius:4em;
+    -moz-border-radius:4em;
+    border-radius:4em;
+ 
+    opacity:0;
+filter: alpha(opacity=0);
+ 
+    -webkit-transition: .3s top ease-in, .3s opacity ease-in;
+    -moz-transition: .3s top ease-in, .3s opacity ease-in;
+    -o-transition: .3s top ease-in, .3s opacity ease-in;
+    -ms-transition: .3s top ease-in, .3s opacity ease-in;
+    transition: .3s top ease-in, .3s opacity ease-in;
+}
+
+#nav{list-style:none;margin: 0px;padding: 0px;}
+#nav li {
+float: left;
+margin-right: 20px;
+font-size: 14px;
+font-weight:bold;
+}
+#nav li a{color:#333333;text-decoration:none}
+#nav li a:hover{color:#006699;text-decoration:none}
+
